@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/alibaba/HandyJSON.git", .exact("5.0.1")),
         .package(url: "https://github.com/Quick/Quick.git", .exact("2.2.0")),
         .package(url: "https://github.com/Quick/Nimble.git", .exact("8.0.2")),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0")
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.0.0")
         ],
     targets: [
         .target(
